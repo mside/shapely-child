@@ -1,0 +1,86 @@
+/*
+Theme Name: Shapely Child
+Theme URL: https://colorlib.com/wp/themes/shapely/
+Description: Shapely Child Theme
+Author URL: https://colorlib.com/wp/themes/shapely/
+Template: shapely
+Version: 1.0.0
+Text Domain: shapely-child
+*/
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: 'illuma';
+    src: url('localhost/wordpress/wp-content/themes/shapely-child/fonts/illuma-black-webfont.woff2') format('woff2'), url('localhost/wordpress/wp-content/themes/shapely-child/fonts/illuma-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* default font: arial */
+  
+  @font-face {
+    font-family: 'openSans';
+    src: url('localhost/wordpress/wp-content/themes/shapely-child/fonts/OpenSans-Regular-webfont.eot');
+    src: url('localhost/wordpress/wp-content/themes/shapely-child/fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* ILLUMA */
+
+  h1 {
+    font-family: 'illuma', 'helvetica', 'sans-serif';
+  }
+
+  h2 {
+    font-family: 'illuma', 'helvetica', 'sans-serif';
+  }
+
+  h3 {
+    font-family: 'illuma', 'helvetica', 'sans-serif';
+    font-size: 24px;
+  }
+
+  label {
+    font-family: 'illuma', 'helvetica', 'sans-serif';
+  }
+
+
+  /* OPEN SANS */
+
+  h4 {
+    font-family: 'openSans', 'Arial', 'sans-serif';
+  }
+
+  h5 {
+    font-family: 'openSans', 'Arial', 'sans-serif';
+  }
+
+  p {
+    font-family: 'openSans', 'Arial', 'sans-serif';
+    font-size: 16px;
+  }
+
+  a {
+    font-family: 'openSans', 'Arial', 'sans-serif';
+  }
+
+  /* NAVBAR */
+
+  #menu-item-25 a {
+    font-family: 'illuma', 'helvetica', 'sans-serif';
+    font-size: 26px;
+  }
+
+  /* HERO */
+
+  .top-parallax-section h1 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 30px;
+  }
+
+  .top-parallax-section p {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 20px;
+}
